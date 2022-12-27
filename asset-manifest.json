@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/MyProtfolio/static/css/main.96ccd0fd.css",
+    "main.js": "/MyProtfolio/static/js/main.da4c92ae.js",
+    "static/js/787.dc9ee2bf.chunk.js": "/MyProtfolio/static/js/787.dc9ee2bf.chunk.js",
+    "static/media/Resturent.png": "/MyProtfolio/static/media/Resturent.9006530592b500fb53a2.png",
+    "static/media/Resturent_1.png": "/MyProtfolio/static/media/Resturent_1.481fd0a41f7f2044371c.png",
+    "static/media/protfolio.png": "/MyProtfolio/static/media/protfolio.89eac934278bf4a17399.png",
+    "static/media/weather.png": "/MyProtfolio/static/media/weather.fb7df51bf36b45b086f7.png",
+    "static/media/ayan6.jpeg": "/MyProtfolio/static/media/ayan6.49b89655fc4e6779e0d2.jpeg",
+    "static/media/expense.png": "/MyProtfolio/static/media/expense.4ba97527d82e8918e896.png",
+    "static/media/todo.png": "/MyProtfolio/static/media/todo.f16e16cba85840508ddd.png",
+    "static/media/Poppins-Thin.ttf": "/MyProtfolio/static/media/Poppins-Thin.a61eaf4c2e4d44d6db6a.ttf",
+    "static/media/Poppins-Light.ttf": "/MyProtfolio/static/media/Poppins-Light.f41b63c0bb0963ace821.ttf",
+    "static/media/Poppins-Regular.ttf": "/MyProtfolio/static/media/Poppins-Regular.8081832fc5cfbf634aa6.ttf",
+    "static/media/Poppins-Medium.ttf": "/MyProtfolio/static/media/Poppins-Medium.9e1bb626874ed49aa343.ttf",
+    "static/media/Poppins-SemiBold.ttf": "/MyProtfolio/static/media/Poppins-SemiBold.cce5625b56ec678e4202.ttf",
+    "static/media/Poppins-Bold.ttf": "/MyProtfolio/static/media/Poppins-Bold.404e299be26d78e66794.ttf",
+    "static/media/Poppins-ExtraBold.ttf": "/MyProtfolio/static/media/Poppins-ExtraBold.4ed78cd5d64af4efc3c7.ttf",
+    "static/media/background.jpg": "/MyProtfolio/static/media/background.468b922c69bf5499b4bc.jpg",
+    "static/media/pic2.svg": "/MyProtfolio/static/media/pic2.ef69ec5a3c059a019f52688bc75d48da.svg",
+    "index.html": "/MyProtfolio/index.html",
+    "static/media/icon-close.svg": "/MyProtfolio/static/media/icon-close.d47fda63cbd8b3fedbbc1b2a53f64470.svg",
+    "static/media/icon-hamburger.svg": "/MyProtfolio/static/media/icon-hamburger.5273efa7c50e96ef3e51e7a2b54048ce.svg",
+    "main.96ccd0fd.css.map": "/MyProtfolio/static/css/main.96ccd0fd.css.map",
+    "main.da4c92ae.js.map": "/MyProtfolio/static/js/main.da4c92ae.js.map",
+    "787.dc9ee2bf.chunk.js.map": "/MyProtfolio/static/js/787.dc9ee2bf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.96ccd0fd.css",
+    "static/js/main.da4c92ae.js"
+  ]
+}
