@@ -1,0 +1,15 @@
+.navbar {
+  font: 20px 'opensans-bold', cursive;
+  width: 100%;
+  letter-spacing: 2.5px;
+  margin: 0 auto;
+}
+
+.nav-item a:hover {
+  color: var(--dark-orange) !important;
+  transition: 0.5s;
+}
+
+.pad {
+  padding-top: 16px;
+}

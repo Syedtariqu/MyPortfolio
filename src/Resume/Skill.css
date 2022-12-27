@@ -1,0 +1,122 @@
+* {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+}
+
+.skills_section {
+     width: 100%;
+     height: 100vh;
+     padding: 0px 10%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+}
+
+.skills_head {
+     color: var(--title-color);
+     margin-top: 2rem;
+     font-weight: 900;
+     font-size: 60px;
+     line-height: 1.75rem;
+}
+
+.skills_head h1 {
+     text-align: center;
+}
+
+.skills_head h1 span {
+     color: #3498db;
+}
+
+.skills_main {
+     width: 100%;
+     display: grid;
+     grid-row-gap: 20px;
+     margin-top: 1rem;
+
+}
+
+.skills_main .skill_bar .info {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 0 10px;
+}
+
+.skill_bar .info h4:nth-child(1) {
+     font-weight: 900;
+     font-size: 25px;
+     color: #6E7881;
+     font-style: italic;
+}
+
+.skill_bar .info h4:nth-child(2) {
+     font-weight: 900;
+     font-size: 20px;
+}
+
+.skill_bar .bar {
+     width: 100%;
+     height: 30px;
+     background-color: rgba(0, 0, 0, 0.144);
+     border-radius: 25px;
+     margin-top: 5px;
+     position: relative;
+}
+
+.skill_bar .bar span {
+     height: 100%;
+     position: absolute;
+     background-color: #3498db;
+     border-radius: 25px;
+}
+
+.skill_bar .bar .html {
+     width: 80%;
+}
+
+.skill_bar .bar .css {
+     width: 70%;
+
+}
+
+.skill_bar .bar .js {
+     width: 50%;
+}
+
+.skill_bar .bar .react {
+     width: 55%;
+}
+
+.skill_bar .bar .fm {
+     width: 70%;
+
+}
+
+@media screen and (max-width: 768px) {
+
+     .skills_head {
+          margin-bottom: 3rem;
+     }
+
+     .skills_section {
+          height: 80vh;
+     }
+}
+
+@media screen and (max-width: 450px) {
+     .skill_bar .bar {
+          height: 20px;
+          margin-top: 10px;
+
+     }
+
+     .skill_bar .info h4:nth-child(1) {
+
+          font-size: 20px;
+
+     }
+
+}

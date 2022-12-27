@@ -1,0 +1,169 @@
+.a-title {
+  font-weight: 900;
+  font-size: 40px;
+}
+
+.a-title span {
+  color: #3498db;
+}
+
+.btnn {
+  padding: 0.75rem 0.75rem;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  line-height: 0.8;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  border: 1px solid transparent;
+}
+
+.btnn-secondary {
+  background: var(--secondary);
+  color: var(--heaven);
+}
+
+.btnn-secondary:hover {
+  background: var(--heaven);
+  color: var(--secondary);
+  border: 1px solid var(--secondary);
+}
+
+#header .animated {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@-webkit-keyframes up-down {
+  0% {
+    transform: translateY(15px);
+  }
+
+  100% {
+    transform: translateY(-15px);
+  }
+}
+
+@keyframes up-down {
+  0% {
+    transform: translateY(15px);
+  }
+
+  100% {
+    transform: translateY(-15px);
+  }
+}
+
+
+#header {
+  width: 100%;
+  margin-top: 4rem;
+}
+
+#header h1 {
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  color: black;
+}
+
+#header h2 {
+  color: #484848;
+  font-size: 24px;
+}
+
+
+.header-img {
+  text-align: right;
+}
+
+/* Responsive Part */
+
+@media screen and (max-width: 992px) {
+  #header {
+    text-align: center;
+  }
+
+  .high {
+    margin-top: 4rem;
+    width: 100%;
+  }
+
+  #header .header-img {
+    text-align: center;
+  }
+
+  #header .header-img img {
+    width: 60%;
+  }
+
+  .btnn {
+    width: 80%;
+    margin: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  #header {
+    height: 100vh;
+    margin-top: 20px;
+
+  }
+
+  #header h2 {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+
+  #header .header-img img {
+    display: block;
+    width: 100%;
+    z-index: -2;
+  }
+
+  .btnn {
+    width: 40%;
+    margin: auto 0;
+  }
+
+  .para {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 574px) {
+  .btnn {
+    width: 70%;
+  }
+}
+
+
+
+@media (max-width: 450px) {
+  .btnn {
+    width: 70%;
+  }
+}
+
+@media (max-width: 340px) {
+  .btnn {
+    width: 90%;
+  }
+}
+
+@media (max-width: 380px) {
+  .high {
+    margin-top: 7rem;
+  }
+}
