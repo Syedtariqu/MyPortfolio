@@ -89,14 +89,12 @@
 
 .colz .colz-icon {
      margin-bottom: 20px;
-
 }
 
 .colz .colz-icon i {
      font-size: 2rem;
      color: white;
-     padding: 8px;
-     padding-left: opx;
+     margin: 1rem;
 }
 
 .colz .colz-icon .bi-facebook:hover {
