@@ -50,7 +50,7 @@ const Profile = () => {
                               viewport={{ once: true }}
                               className='profile-details'>
                               <div className='colz'>
-                                   {/* <div className="colz-icon flex space-x-8 text-4xl">
+                                   <div className="colz-icon">
                                         <a href="https://www.facebook.com/syed.ayan.56808?mibextid=ZbWKwL" target="_blank">
                                              <i class="bi bi-facebook"></i>
                                         </a>
@@ -60,7 +60,7 @@ const Profile = () => {
                                         <a href="https://github.com/Syedtariqu" target="_blank">
                                              <i class="bi bi-github"></i>
                                         </a>
-                                   </div> */}
+                                   </div>
                               </div>
 
                               <div className='profile-details-name'>
