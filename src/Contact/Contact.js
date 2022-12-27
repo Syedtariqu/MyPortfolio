@@ -80,9 +80,9 @@ const Contact = () => {
                                         initial="hidden"
                                         whileInView="visible"
                                         className="flex space-x-8 text-4xl">
-                                        <a href="https://www.facebook.com/syed.ayan.56808?mibextid=ZbWKwL" target="_blank"><i className="bi bi-facebook"></i></a>
-                                        <a href="https://instagram.com/ayanexist?igshid=YzgyMTM2MGM=" target="_blank"><i className="bi bi-instagram"></i></a>
-                                        <a href="https://github.com/Syedtariqu" target="_blank"><i className="bi bi-github"></i></a>
+    <a href="https://www.facebook.com/syed.ayan.56808?mibextid=ZbWKwL" target="_blank"><i className="bi bi-facebook"></i></a>
+    <a href="https://instagram.com/ayanexist?igshid=YzgyMTM2MGM=" target="_blank"><i className="bi bi-instagram"></i></a>
+    <a href="https://github.com/Syedtariqu" target="_blank"><i className="bi bi-github"></i></a>
 
                                    </motion.div>
                               </div>
