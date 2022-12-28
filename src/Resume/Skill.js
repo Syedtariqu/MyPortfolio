@@ -131,4 +131,4 @@ const Skill = () => {
   )
 }
 
-export default Skill
+export default Skill ;
