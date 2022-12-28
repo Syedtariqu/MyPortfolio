@@ -41,9 +41,9 @@ const About = () => {
                     initial="hidden"
                     whileInView="visible">
                     Hi there!
-                    i'm Ayan ,
-                    i'm a third year B.Tech CSE student of Netaji Subhash Engineering College .
-                    Currently i'm a FrontEnd Developer... i have hunger to learn more & also to improve my skills & to know more about my skills download my Resume
+                    I'm Ayan ,
+                    I'm a third year B.Tech CSE student of Netaji Subhash Engineering College .
+                    Currently I'm a FrontEnd Developer... I have hunger to learn new things &  to improve my skills . To know more about my skills download my Resume . 
                   </motion.h2>
                   <div className=' mt-3'>
                     <a href="Resume-1.pdf" download="Syed Resume-1.pdf">
