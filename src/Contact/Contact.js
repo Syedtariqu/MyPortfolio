@@ -5,11 +5,11 @@ import { motion } from "framer-motion"
 
 const imgVariants = {
      hidden: {
-          x: "400px",
+          y: 50,
           opacity: 0,
      },
      visible: {
-          x: 0,
+          y: 0,
           opacity: 1,
           transition: {
                duration: 2,
