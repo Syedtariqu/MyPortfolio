@@ -19,23 +19,12 @@ const navVariants = {
   }
 
 }
-const svgVariants = {
-  hidden: {
-    rotate: -180,
-  },
-  visible: {
-    rotate: 0,
-    transition: {
-      duration: 0.3,
-      yoyo: Infinity
-    }
-  }
-}
+
 const NavBar = () => {
   let [open, setOpen] = useState(false)
   return (
     <>
-      <nav className="navbar  ">
+      <nav className="navbar ">
         <motion.div
           variants={navVariants}
           initial="hidden"
