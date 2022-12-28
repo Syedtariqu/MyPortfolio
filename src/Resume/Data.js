@@ -5,7 +5,7 @@ const Data = [
           name: "Indas High School",
           icon: "bi bi-mortarboard-fill",
           year: "2012 - 2019",
-          degree: "Class V to X & XII",
+          degree: "Class V to XII",
 
      },
      {
