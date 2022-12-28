@@ -100,19 +100,19 @@ const Contact = () => {
                                                   <label className="text-sm md:text-2xl">Your Name</label>
                                              </div>
                                              <div>
-                                                  <input type="text" placeholder='Your Name' name="from_name" className=' ring-1 ring-gray-300 w-full rounded-md px-4 py-2 outline-none focus:ring-2 focus:ring-cyan-300' />
+                                                  <input type="text" autoComplete='off' placeholder='Your Name' name="from_name" className=' ring-1 ring-gray-300 w-full rounded-md px-4 py-2 outline-none focus:ring-2 focus:ring-cyan-300' />
                                              </div>
                                              <div>
                                                   <label className="text-sm md:text-2xl">Email Address</label>
                                              </div>
                                              <div>
-                                                  <input type="email" name="user_email" placeholder='abc@gmail.com' className=' ring-1 ring-gray-300 w-full rounded-md px-4 py-2 outline-none focus:ring-2 focus:ring-cyan-300' />
+                                                  <input type="email" autoComplete='off' name="user_email" placeholder='abc@gmail.com' className=' ring-1 ring-gray-300 w-full rounded-md px-4 py-2 outline-none focus:ring-2 focus:ring-cyan-300' />
                                              </div>
                                              <div>
                                                   <label className="text-sm md:text-2xl">Message</label>
                                              </div>
                                              <div>
-                                                  <textarea type="text" name="message" rows="4" placeholder='Type Your Message Here' className=' ring-1 ring-gray-300 w-full rounded-md px-4 py-2 outline-none focus:ring-2 focus:ring-cyan-300'></textarea>
+                                                  <textarea type="text" autoComplete='off' name="message" rows="4" placeholder='Type Your Message Here' className=' ring-1 ring-gray-300 w-full rounded-md px-4 py-2 outline-none focus:ring-2 focus:ring-cyan-300'></textarea>
                                              </div>
                                              <input type="submit" value="Send Message" className=' hover:bg-cyan-800 transition-all  inline-block self-end bg-cyan-700 text-white bnt font-bold rounded-lg px-6 py-2 uppercase md:text-xl text-sm' />
                                         </form>
