@@ -36,14 +36,14 @@ const About = () => {
                     whileInView="visible"
                   >About <span>Me</span></motion.h1>
                   <LineGradient width='w-1/2' />
-                  <motion.h2 className='  mt-7 text-xl'
+                  <motion.h2 className='leading-9 mt-7 text-xl'
                     variants={titleVariants}
                     initial="hidden"
                     whileInView="visible">
                     Hi there!
                     I'm Syed Tarique Abedin ,
                     I'm a third year B.Tech CSE student of Netaji Subhash Engineering College .
-                    Currently I'm a FrontEnd Developer... I have hunger to learn new things &  to improve my skills . To know more about my skills download my Resume . 
+                    Currently I'm a FrontEnd Developer... I have hunger to learn new things to improve my skills . To know more about my skills download my Resume . 
                   </motion.h2>
                   <div className=' mt-3'>
                     <a href="Resume-1.pdf" download="Syed Resume-1.pdf">
