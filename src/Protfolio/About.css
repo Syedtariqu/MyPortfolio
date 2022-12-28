@@ -156,14 +156,17 @@
   }
 }
 
-@media (max-width: 340px) {
-  .btnn {
-    width: 90%;
-  }
-}
-
 @media (max-width: 380px) {
   .high {
-    margin-top: 7rem;
+    margin-top: 10rem;
+  }
+}
+@media (max-width: 340px) {
+
+  .high {
+    margin-top: 14rem;
+  }
+  .btnn {
+    width: 90%;
   }
 }

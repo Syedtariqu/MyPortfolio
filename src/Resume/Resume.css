@@ -128,13 +128,17 @@
   .resume_container {
     grid-template-columns: 1fr;
   }
-
-  .section_title h1 {
-    padding-top: 4rem;
+  .section {
+    margin-top: 13rem;
   }
-
   .timeline_title {
     font: 20px/25px 'opensans-bold', sans-serif;
     font-weight: 700;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .section {
+    margin-top: 16rem;
   }
 }
