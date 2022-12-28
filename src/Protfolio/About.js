@@ -41,7 +41,7 @@ const About = () => {
                     initial="hidden"
                     whileInView="visible">
                     Hi there!
-                    I'm Ayan ,
+                    I'm Syed Tarique Abedin ,
                     I'm a third year B.Tech CSE student of Netaji Subhash Engineering College .
                     Currently I'm a FrontEnd Developer... I have hunger to learn new things &  to improve my skills . To know more about my skills download my Resume . 
                   </motion.h2>
