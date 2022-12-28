@@ -47,7 +47,6 @@ const Contact = () => {
           emailjs.sendForm('service_rju08zo', 'template_tcltu83', form.current, 'psfPYaV67C65SBW-R')
                .then((result) => {
                     console.log(result.text);
-                    console.log("Message Sent");
                }, (error) => {
                     console.log(error.text);
                });
