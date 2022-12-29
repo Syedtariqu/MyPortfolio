@@ -107,7 +107,7 @@ const Contact = () => {
                <section id="contact" className='antialiased bg-gray-100 '>
                     <div className="flex w-full min-h-screen justify-center items-center">
                          <div className='bg-cyan-700 w-full  max-w-4xl md:max-w-5xl p-5 rounded-xl shadow-lg text-white flex flex-col space-y-6 md:flex-row md:space-x-6 md:justify-between md:space-y-0 sm:p-12 overflow-hidden'>
-                              <div className="flex flex-col justify-between space-y-8">
+                              <div className="flex flex-col justify-between space-y-6">
                                    <div>
                                         <h1 className='font-bold text-4xl md:text-5xl tracking-wide'>Get In Touch</h1>
                                    </div>
