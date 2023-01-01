@@ -106,8 +106,8 @@ const Contact = () => {
           <>
                <section id="contact" className='antialiased bg-gray-100 '>
                     <div className="flex w-full min-h-screen justify-center items-center">
-                         <div className='bg-cyan-700 w-full  max-w-4xl md:max-w-5xl p-5 rounded-xl shadow-lg text-white flex flex-col space-y-6 md:flex-row md:space-x-6 md:justify-between md:space-y-0 sm:p-12 overflow-hidden'>
-                              <div className="flex flex-col justify-between space-y-6">
+                         <div className='bg-cyan-700 w-full  max-w-4xl md:max-w-5xl p-5 rounded-xl shadow-lg text-white flex flex-col space-y-6 md:flex-row md:space-x-5 md:justify-between md:space-y-0 sm:p-10 overflow-hidden'>
+                              <div className="flex flex-col mb-4 justify-between space-y-6">
                                    <div>
                                         <h1 className='font-bold text-4xl md:text-5xl tracking-wide'>Get In Touch</h1>
                                    </div>
@@ -167,7 +167,7 @@ const Contact = () => {
                                              <div>
                                                   <textarea type="text" name="message" rows="4" placeholder='Type Your Message Here' className=' ring-1 ring-gray-300 w-full rounded-md px-4 py-2 outline-none focus:ring-2 focus:ring-cyan-300'></textarea>
                                              </div>
-                                             <input type="submit" value="Send Message" className=' hover:bg-cyan-800 transition-all  inline-block self-end bg-cyan-700 text-white bnt font-bold rounded-lg px-6 py-2 uppercase md:text-xl text-sm' />
+                                             <input type="submit" value="Send" className='  text-white btn-grad bnt text-lg font-semibold' />
                                         </form>
                                    </motion.div>
                               </div>
@@ -178,4 +178,4 @@ const Contact = () => {
      )
 }
 
-export default Contact ;
+export default Contact;

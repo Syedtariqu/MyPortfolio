@@ -21,9 +21,9 @@ const titleVariants = {
 const Project = ({ img }) => {
   return (
     <motion.div className="p"
-    variants={titleVariants}
-    initial="hidden"
-    whileInView="visible">
+      variants={titleVariants}
+      initial="hidden"
+      whileInView="visible">
       <div className="p-browser">
         <div className="p-circle"></div>
         <div className="p-circle"></div>

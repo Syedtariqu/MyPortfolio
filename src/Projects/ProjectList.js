@@ -3,7 +3,7 @@ import Project from "./Project";
 import im1 from "../assets/Home/Resturent.png";
 import im2 from "../assets/Home/Resturent_1.png";
 import im3 from "../assets/Home/protfolio.png";
-import im4 from "../assets/Home/todo.png";
+import im4 from "../assets/Home/pro.jpg";
 import im5 from "../assets/Home/weather.png";
 import im6 from "../assets/Home/expense.png";
 
